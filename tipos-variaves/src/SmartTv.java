@@ -1,4 +1,3 @@
-import javax.print.attribute.standard.RequestingUserName;
 
 public class SmartTv {
     boolean ligada = false;
