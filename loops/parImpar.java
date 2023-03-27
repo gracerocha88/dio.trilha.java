@@ -27,7 +27,6 @@ public class parImpar {
             count++;
         } while (count < quantNumeros);
         System.out.println("Quantidade de pares: " + quantPares);
-        System.out.println("Quantidade de impares: " + quantImpares3
-        );
+        System.out.println("Quantidade de impares: " + quantImpares);
     }
 }

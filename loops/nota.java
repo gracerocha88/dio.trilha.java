@@ -14,7 +14,7 @@ public class nota {
         nota = scan.nextInt();
 
         while (nota < 0 | nota > 10) {
-            System.out.println("Nota inválida digite novamemte!");
+            System.out.println("Nota inválida digite novamemte");
             nota = scan.nextInt();
         }
 

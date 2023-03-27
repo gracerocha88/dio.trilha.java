@@ -23,8 +23,8 @@ public class maiorMedia {
             count = count + 1;
 
         } while (count < 5);
-        System.out.println("maior: " + maior);
-        System.out.println("media: " + (soma / 2));
+        System.out.println("Maior: " + maior);
+        System.out.println("Média: " + (soma / 2));
 
     }
 
