@@ -1,18 +1,26 @@
+package loops;
+
 import java.util.Scanner;
 
-public class nomeIdade{
+public class nomeIdade {
 
-public static void main(String[]args) {
+    public static void main(String[] args) {
 
-    Scanner scan = new Scanner(System.in);
+        Scanner scan = new Scanner(System.in);
 
-    String nome;
-    int idade;
+        String nome;
+        int idade;
 
-    System.out.println("nome:  ");
-nome = scan.next();
+        while (true) {
 
-    System.out.println("idade: ");
-    idade = scan.nextInt();
-}
+            System.out.println("nome:  ");
+            nome = scan.next();
+            if (nome.equals("0"))
+                break;
+
+            System.out.println("idade: ");
+            idade = scan.nextInt();
+        }
+        System.out.println("continua aqui...");
+    }
 }
